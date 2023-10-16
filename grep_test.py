@@ -4,6 +4,8 @@ from grep import grep
 
 from unittest import mock
 
+import io
+
 FILE_TEXT = {
     "iliad.txt": """Achilles sing, O Goddess! Peleus' son;
 His wrath pernicious, who ten thousand woes
